@@ -1,4 +1,3 @@
-<img width="383" height="582" alt="Welcome_Screen" src="https://github.com/user-attachments/assets/fb8c2a9d-1af7-43ae-83f7-1b3269730f27" />
 # Pivot Trait
 
 *Pivot Trait helps users identify language that may be negatively interpreted by institutions, and gives the user control on how to reframe that language in a more positive light.*
@@ -72,7 +71,6 @@ Our project uses a collection of custom language datasets that support text enha
   * ○ Step 2. Next select from 4 different Strength Profiles by clicking one of the available buttons: Autism Spectrum, ADHD, Dyslexic or General Professional (In this demonstration the ADHD profile was selected)
   * ○ Step 3. Then click ‘Submit’ to continue.
 
-<img width="350" height="487" alt="Upload_File" src="https://github.com/user-attachments/assets/c5e5f970-3a40-4a16-b659-f26bb442ee31" />
 <img width="383" height="582" alt="Welcome_Screen" src="https://github.com/user-attachments/assets/c4819253-5226-4d74-b203-68b087c96c3f" />
 
 
@@ -95,7 +93,9 @@ Our project uses a collection of custom language datasets that support text enha
 
 <img width="351" height="430" alt="Edit_Screen_1" src="https://github.com/user-attachments/assets/22181d12-12bf-40b1-8228-620e0840f5a1" />
 
+
 <img width="351" height="430" alt="Edit_Screen_2" src="https://github.com/user-attachments/assets/8c3bd086-8f06-4149-9d68-c07a6f7e1c54" />
+
 
 <img width="351" height="430" alt="Edit_Screen_3" src="https://github.com/user-attachments/assets/1ebf1855-7741-4100-ac2a-8d5bc258fec7" />
 
@@ -108,10 +108,11 @@ Our project uses a collection of custom language datasets that support text enha
    ○ Step 3: Save your document by clicking the ‘Save’ button.
    ○ Step 4: After clicking the ‘Save’ button you are taken back to the ‘Final Implemented Document’ screen where you can exit the program by clicking the ‘Exit Program’ button.
 
-<!-- Drag and drop Final Implemented Document screen image here -->
 <img width="360" height="386" alt="Final_Doc_Screen_1" src="https://github.com/user-attachments/assets/1fb1fab4-e2bb-434c-97e2-cb0b5d206c73" />
 
+
 <img width="358" height="244" alt="Final_Doc_Screen_2" src="https://github.com/user-attachments/assets/e9903991-6f55-4812-9937-2eae06c78917" />
+
 
 <img width="360" height="386" alt="Final_Doc_Screen3" src="https://github.com/user-attachments/assets/7e18dc97-81d3-4619-84af-40c56260426f" />
 
