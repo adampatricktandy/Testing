@@ -18,102 +18,100 @@
 
 ## 🔹 Research and Background
 
-*(Insert your research and background details here if needed)*
-
 ---
 
 ## 🔹 Project Dependencies
 
-Our project uses a collection of custom language datasets that support text enhancements. This dataset consists of a dictionary that contains alternative words and phrases designed to improve the clarity, professionalism, and readability while not changing the original meaning of the user's writing. 
-
-This system includes both general-purpose and specialized dictionaries for different communication and learning styles, such as **ADHD, Autism spectrum, and dyslexia-focused support**. These are used by the text processing engine to find phrases and words that can be improved and give suggestions to create clearer writing.
+Our project uses a collection of custom language datasets that support text enhancements. This dataset consists of a dictionary that contains alternative words and phrases designed to improve the clarity, professionalism, and readability while not changing the original meaning of the user's writing. This system includes both general-purpose and specialized dictionaries for different communication and learning styles, such as ADHD, Autism spectrum, and dyslexia-focused support. These are used by the text processing engine to find phrases and words that can be improved and give suggestions to create clearer writing.
 
 ---
 
-## 🔹 Configuration, Installation, and Execution Instructions
+## 🔹 Configuration, installation, and execution instructions
 
-1. Download both the `Pivot Trait (Master).py` file from this repository as well as any of our sample text documents (or use your own) into a new folder on your computer.
-   > [!IMPORTANT]
-   > Make sure that all of the files are in the same folder when running the program.
-   * `adhd_college_essay_test.txt`
-   * `autism_college_essay_test.tx`
-   * `dyslexia_college_essay_test.txt`
-   * `neurotypical_professional_college_essay_test.txt`
-   * `keyword_test.txt`
-2. Open python and open the `Pivot Trait (Master).py` file.
-3. Run the program.
+1. Download both the ‘Pivot Trait (Master).py’ file from this repository as well as any of our sample text documents (or use your own) into a new folder on your computer. *Note: make sure that all of the files are in the same folder when running the program.*
+   * a. adhd_college_essay_test.txt
+   * b. autism_college_essay_test.tx
+   * c. dyslexia_college_essay_test.txt
+   * d. neurotypical_professional_college_essay_test.txt
+   * e. keyword_test.txt
+2. Next open python and open the ‘Pivot Trait (Master).py’ file.
+3. Run the program
 4. **Welcome to the Pivot Trait Title Screen**
-   * Enter your name.
-   * Select your strength profile to more accurately reflect your personality and emphasize your traits.
-   * Press **Submit** or the **Enter** key.
+   * a. Enter your name
+   * b. Select your strength profile to more accurately reflect your personality and emphasize your traits
+   * c. Press ‘Submit’ or the ‘Enter’ key
 5. **Upload Screen**
-   * Select **Upload File** to open the file explorer.
-   * Choose one of our sample text files or provide your own.
-   * *Note: only `.txt` files are currently accepted*.
+   * a. Select ‘Upload File’ to open the file explorer
+   * b. Choose one of our sample text files or provide your own
+   * *Note: only .txt files are currently accepted*
 6. **Review/Edit Screen**
-   * Here you will see a working copy of your document.
-   * The suggested replacement will be highlighted and you will be shown information and provided with a few options:
-     * **Commit ‘suggested word’**: This will substitute the highest rated suggestion as shown.
-     * **Bypass Edit**: This will skip this edit, either if you are happy with the current word or if you want to skip for now to see how the rest of the document revisions/suggestions work out.
-     * **Use Custom**: This will allow you to substitute in whatever custom replacement you provide in the input field. *Note: there are additional suggestions at the bottom of the screen, to use these you must type them in as custom replacements.*
-   * Continue working through the edits in your document. You can keep track of progress through the counter at the top.
+   * a. Here you will see a working copy of your document
+   * b. The suggested replacement will be highlighted and you will be shown information and provided with a few options:
+     * **i. Commit ‘suggested word’**
+       * 1. This will substitute the highest rated suggestion as shown
+     * **ii. Bypass Edit**
+       * 1. This will skip this edit, either if you are happy with the current word or if you want to skip for now to see how the rest of the document revisions/suggestions work out
+     * **iii. Use Custom**
+       * 1. This will allow you to substitute in whatever custom replacement you provide in the input field
+       * *Note: there are additional suggestions at the bottom of the screen, to use these you must type them in as custom replacements*
+   * c. Continue working through the edits in your document
+     * i. You can keep track of progress through the counter at the top
 7. **Final Document Screen**
-   * Here you have a chance to review the final document.
-   * You can also save the document by pressing the **Save Document** button.
-   * Or you can simply exit the program.
+   * a. Here you have a chance to review the final document
+   * b. You can also save the document by pressing the ‘Save Document’ button
+   * c. Or you can simply exit the program
    * *Note: if you exit the program all replacements/changes will be lost.*
 
 ---
 
 ## 🔹 Sample Use-Cases
 
-* Running the file brings you to the **Welcome** screen.
-  * **Step 1:** Click in the enter username field and enter your name.
-  * **Step 2:** Next select from 4 different Strength Profiles by clicking one of the available buttons: `Autism Spectrum`, `ADHD`, `Dyslexic`, or `General Professional` *(In this demonstration the ADHD profile was selected)*.
-  * **Step 3:** Then click **Submit** to continue.
+* Running the file brings you to the ‘Welcome’ screen.
+  * ○ Step 1. Click in the enter username field and enter your name.
+  * ○ Step 2. Next select from 4 different Strength Profiles by clicking one of the available buttons: Autism Spectrum, ADHD, Dyslexic or General Professional (In this demonstration the ADHD profile was selected)
+  * ○ Step 3. Then click ‘Submit’ to continue.
 
-<!-- Drag and drop welcome screen image here -->
-
-***
-
-* After you hit submit you are brought to the **Upload File** screen.
-  * **Step 1:** Click the **Upload File** button to select the file you'd like to have Pivot Trait examine.
-  * **Step 2:** Select the file by clicking on it.
-  * **Step 3:** Click **Open** to proceed to the next step.
-
-<!-- Drag and drop upload screen image here -->
+<!-- Drag and drop Welcome screen image here -->
 
 ***
 
-* Next you are taken to the **Review Edit** screen. Pivot Trait displays your document and highlights suggested edits according to your selected Strength Profile.
-  * **Step 1:** Select whether you would like to commit the suggested edit, bypass it or enter your own custom edit. These choices are: `Commit`, `Bypass Edit`, or `Use Custom`. If using the `Use Custom` function enter your edit in the field under *"Or type your own custom replacement:"*.
-  * **Step 2:** Once you select your choice, the program either updates your document with the changes or proceeds to the next edit.
-  * **Step 3:** Continue parsing through your document until you reach the end of the edits. Pivot Trait will automatically move to the next screen after the last edit is displayed.
+* After you hit submit you are brought to the ‘Upload File’ screen.
+  * ○ Step 1. Click the ‘Upload File’ button to select the file you'd like to have Pivot Trait examine.
+  * ○ Step 2: Select the file by clicking on it.
+  * ○ Step 3: Click ‘Open’ to proceed to the next step.
 
-<!-- Drag and drop review screen image here -->
+<!-- Drag and drop Upload File screen image here -->
 
 ***
 
-* Next you are taken to the **Final Implemented Document** screen. Pivot Trait applies all of the changes made to your document and displays it in its edited form.
-  * **Step 1:** To save your edited document, click the **Save Document** button.
-  * **Step 2:** Once you click the **Save Document** button you are taken to the **Save As** screen where you can enter the filename of your edited document.
-  * **Step 3:** Save your document by clicking the **Save** button.
-  * **Step 4:** After clicking the **Save** button you are taken back to the **Final Implemented Document** screen where you can exit the program by clicking the **Exit Program** button.
+* Next you are taken to the ‘Review Edit’ screen. Pivot Trait displays your document and highlights suggested edits according to your selected Strength Profile.
+  * ○ Step 1. Select whether you would like to commit the suggested edit, bypass it or enter your own custom edit. These choices are: Commit, Bypass Edit or Use Custom. If using the ‘Use Custom’ function enter your edit in the field under ‘Or type your own custom replacement:’
+  * ○ Step 2: Once you select your choice, the program either updates your document with the changes or proceeds to the next edit.
+  * ○ Step 3: Continue parsing through your document until you reach the end of the edits. Pivot Trait will automatically move to the next screen after the last edit is displayed.
 
-<!-- Drag and drop final screen image here -->
+<!-- Drag and drop Review Edit screen image here -->
+
+***
+
+* Next you are taken to the ‘Final Implemented Document’ screen. Pivot Trait applies all of the changes made to your document and displays it in its edited form.
+  * ○ Step 1. To save your edited document, click the ‘Save Document’ button.
+  * ○ Step 2: Once you click the ‘Save Document’ button you are taken to the ‘Save As’ screen where you can enter the filename of your edited document.
+  * ○ Step 3: Save your document by clicking the ‘Save’ button.
+  * ○ Step 4: After clicking the ‘Save’ button you are taken back to the ‘Final Implemented Document’ screen where you can exit the program by clicking the ‘Exit Program’ button.
+
+<!-- Drag and drop Final Implemented Document screen image here -->
 
 ---
 
 ## 🔹 Table of Files
 
-| Filename | Location | Function | Contributor / Contributions |
+| Filename | Location | Function | Contributor/ Contributions |
 | :--- | :--- | :--- | :--- |
-| **Master_Save_Function.py** | Main | The final, working program file for Pivot Trait application. | **Adam:**<br>• Implemented underlying skeleton from NeuroTest 1.py.<br>• Introduced File Upload, Get Username, Parsing and Save Document using Tkinter.<br><br>**Clinton:**<br>• Streamlined all areas of application.<br>• Created Strength Profile system with dynamic parameters.<br>• Created all verbiage, button design, and aesthetics for all screens.<br><br>**Lulu:**<br>• Implemented dual dictionary functionality.<br>• Tested, debugged, and fixed grammar issues.<br><br>**James:**<br>• Tested and debugged program with sample documents.<br>• Spearheaded targeted testing campaign.<br>• Examined for bias, accessibility, and inclusion. |
-| **adhd_college_essay_test.txt**<br>**autism_college_essay_test.txt**<br>**dyslexia_college_essay_test.txt** | Main | Sample documents created to be uploaded to and tested by program functionality. Each tailored to specific traits inherent in different definitions of neurodiversity. | **James:**<br>• Created all sample files.<br>• Researched traits of Autism Spectrum, ADHD, and Dyslexia to mirror user descriptions.<br>• Ran samples to find limitations or conflicts. |
-| **neurotypical_professional_college_essay_test.txt** | Main | Sample document created to convey neurotypical traits. Designed to test limits of program functionality with a profile that doesn't match neurodivergent traits. | **James:**<br>• Created and tested this profile edge-case. |
-| **pivot_trait_language_library.py** | Main | Expansive dictionary of descriptors and phrases program scanned document for and selected suggested edits from. | **Lulu:**<br>• Created all entries in dictionary integral to program.<br>• Compiled list of improvable self-descriptors.<br>• Compiled list of suggested edits to transform text into optimized language. |
-| **README.md** | Main | File explaining all aspects of program. | **Adam:**<br>• Sample use-cases with screenshots & alt text.<br>• Table of files and contribution map.<br><br>**Clinton:**<br>• Configuration, installation, and execution instructions.<br><br>**Lulu:**<br>• Project dependencies including data libraries.<br><br>**James:**<br>• Important background research, terms, and citations. |
-| **About_Test_Files** | Test_Files | Explanation of folder existence. | *(Team Archive)* |
-| **NeuroTest 1.py** | Test_Files | First iteration of Pivot Trait program, serving as skeletal architecture. Primitive program used clunky dictionaries to test parsing. | **Adam** (Skeletal build) |
-| **Sample.txt** | Test_Files | Primitive, first sample text generated to test terms in library of self-descriptors. | **Adam** |
-| **NeuroTest-2LD.py** | Test_Files | Test file of Pivot Trait used in testing and developing language library. | **Lulu** |
+| Master_Save_Function.py | Main | The final, working program file for Pivot Trait application | **Adam:**<br>- Implemented underlying skeleton of program from NeuroTest 1.py.<br>-Introduced File Upload, Get Username, Parsing and Save Document functions using Tkinter filedialogue functionality.<br><br>**Clinton:**<br>-Streamlined all areas of application.<br>-Created Strength Profile system which applied dynamic parameters shaping user experience throughout the program that provides specific “suggested edits” based on profile selection.<br>-Created all verbiage, button creation selection and design aesthetics of ‘Welcome Screen’, ‘Upload File’ screen, ‘Review Edit’ screen and ‘Final Implemented Document’ screen’.<br><br>**Lulu:**<br>-Implemented dual dictionary functionality and all dictionary entries integral to program working and parsing documents correctly.<br>-Tested and debugged dictionary functionality<br>-Updated changes to dictionary following her discovery of grammar issues<br><br>**James:**<br>-Tested and debugged program with sample documents he created.<br>-Spearheaded targeted testing campaign by creating and running sample document specifically designed antithesis of working elements of program<br>-Examined for bias, accessibility and inclusion |
+| adhd_college_essay_test.txt<br><br>autism_college_essay_test.txt | Main | Sample documents created to be uploaded to and tested by program functionality. Each tailored to specific traits inherent in different definitions of neurodiversity. | **James:**<br>-Created all sample files<br>-Researched traits of Autism Spectrum, ADHD and Dyslexia and implemented them into sample documents mirroring how user with traits may describe certain personality aspects.<br>-Ran sample documents through program to find limitations, bugs or confilicts |
+| dyslexia_college_essay_test.txt<br><br>neurotypical_professional_college_essay_test.txt | Main | Sample document created to convey neurotypical traits. Designed to test limits of program functionality with profile that doesn't match neurodiveregent traits. | *(Text block mapped directly to the sample document metrics above)* |
+| pivot_trait_language_library.py | Main | Expansive dictionary of descriptors and phrases program scanned document for and selected suggested edits from. | **Lulu:**<br>-Created all entries in dictionary integral to program functionality<br>-Compiled list of possible, improvable self-descriptors a user might employ when writing document that describes one's personal temperament, peronality and work ethic<br>-Compiled list of suggested edits designed to transform the self-descriptors that positively conveys aspect of personality in professional, optimized language |
+| README.md | Main | File explaining all aspects of program | **Adam:**<br>- Sample use-cases with screenshots (including alternative text)<br>-Table of files, their features, who was responsible for/contributed to each<br>-Integrated all submissions into HTML that included formatting and pictures<br><br>**Clinton:**<br>-Configuration, installation, and execution instructions<br><br>**Lulu:**<br>-Project dependencies including third-party libraries and data, if necessary<br><br>**James:**<br>-Important background research, information, and terms<br>-Citations |
+| About_Test_Files | Test_Files | Explanation of folder existence | |
+| NeuroTest 1.py | Test_Files | First iteration of Pivot Trait program, serving as skeletal architecture from upon which full program was built. Primitive program used clunky dictionaries to test parsing and suggested edit functionlity. | **Adam** |
+| Sample.txt | Test_Files | Primitive, first sample text generated to test terms in library of self-descriptors and suggested edits | **Adam** |
